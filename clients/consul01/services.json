@@ -1,4 +1,7 @@
 {
+    "bind_addr":"192.168.80.2",
+    "data_dir":"/var/lib/consul",
+    "encrypt":"4qi0x6r7rnCVG3dI9rRplCBuPiN1ETDfQkNQXbO7A/A=",
     "service": {
         "id":"nginx",
         "name": "nginx",

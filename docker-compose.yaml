@@ -10,7 +10,6 @@ services:
             - ./servers/server01:/etc/consul.d
         ports:
             - "8500:8500"
-
     consulserver02:   
         image: consul:1.10
         container_name: consulserver02
@@ -33,7 +32,6 @@ services:
         command: ['tail', '-f', '/dev/null']
         volumes: 
             - ./clients/consul01:/etc/consul.d
-
     consulclient02:   
         image: consul:1.10
         container_name: consulclient02
